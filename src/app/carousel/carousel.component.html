@@ -1,0 +1,12 @@
+<div class="carousel">
+    <div class="jumbotron slides" style="padding-top: 10px;">
+     <h6 class="font-weight-bold text-center" style="padding: 20px 20px;">Poets Block</h6>
+     <div>
+         <h5>"{{ presentPoem.title }}" - By {{ presentPoem.author }}</h5>
+         <div *ngFor="let line of presentPoem.fewLines">
+             <p style="margin-bottom:0px;">{{ line }}</p>
+         </div>
+        </div>
+    </div>
+ </div>
+
